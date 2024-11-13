@@ -1,0 +1,23 @@
+# Don't check auto-generated stuff into git
+coverage
+.nyc_output
+node_modules
+stats.json
+dist
+output
+build
+.cache/
+
+# Cruft
+.DS_Store
+npm-debug.log
+.idea
+.vscode
+.iml
+/cld-web.iml
+
+#temporary files
+vite.config.*.timestamp*
+vitest.config.*.timestamp*
+
+.nx/

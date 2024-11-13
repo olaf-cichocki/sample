@@ -1,0 +1,413 @@
+[NX Daemon Server] - 2024-11-13T22:34:19.487Z - Started listening on: /var/folders/px/yt_n4xbs4hd30zbdf5xh7xw00000gn/T/36f89bc5644b99e8c572/d.sock
+[NX Daemon Server] - 2024-11-13T22:34:19.493Z - [WATCHER]: Subscribed to changes within: /Users/olaf/Repositories/sample (native)
+[NX Daemon Server] - 2024-11-13T22:34:19.496Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-13T22:34:19.497Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-13T22:34:19.501Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-13T22:34:19.505Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-11-13T22:34:19.905Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-13T22:34:19.905Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-13T22:34:19.905Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-13T22:34:19.910Z - Time taken for 'loadNxPlugins' 399.530709ms
+[NX Daemon Server] - 2024-11-13T22:34:19.910Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-13T22:34:19.910Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-13T22:34:19.911Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-13T22:34:19.911Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-13T22:34:19.912Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-13T22:34:19.912Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-11-13T22:34:20.065Z - Time taken for 'build-project-configs' 150.5171670000001ms
+[NX Daemon Server] - 2024-11-13T22:34:20.065Z - Time taken for '@nx/rspack/plugin:createDependencies' 0.5147090000000389ms
+[NX Daemon Server] - 2024-11-13T22:34:20.066Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+      An error occurred while processing files for the @nx/rspack/plugin plugin.
+    - apps/appA/rspack.config.mjs: require() of ES Module /Users/olaf/Repositories/sample/apps/appA/rspack.config.mjs not supported.
+  Instead change the require of /Users/olaf/Repositories/sample/apps/appA/rspack.config.mjs to a dynamic import() which is available in all CommonJS modules.
+      Error [ERR_REQUIRE_ESM]: require() of ES Module /Users/olaf/Repositories/sample/apps/appA/rspack.config.mjs not supported.
+      Instead change the require of /Users/olaf/Repositories/sample/apps/appA/rspack.config.mjs to a dynamic import() which is available in all CommonJS modules.
+          at resolveUserDefinedRspackConfig (/Users/olaf/Repositories/sample/node_modules/.pnpm/@nx+rspack@20.0.11_@babel+traverse@7.25.9_@module-federation+enhanced@0.6.16_react-dom@18.3.1_mrj6ubloddp6gliyrzlkm7rpcq/node_modules/@nx/rspack/src/utils/resolve-user-defined-rspack-config.js:19:16)
+          at createRspackTargets (/Users/olaf/Repositories/sample/node_modules/.pnpm/@nx+rspack@20.0.11_@babel+traverse@7.25.9_@module-federation+enhanced@0.6.16_react-dom@18.3.1_mrj6ubloddp6gliyrzlkm7rpcq/node_modules/@nx/rspack/src/plugins/plugin.js:65:98)
+          at createNodesInternal (/Users/olaf/Repositories/sample/node_modules/.pnpm/@nx+rspack@20.0.11_@babel+traverse@7.25.9_@module-federation+enhanced@0.6.16_react-dom@18.3.1_mrj6ubloddp6gliyrzlkm7rpcq/node_modules/@nx/rspack/src/plugins/plugin.js:51:34)
+          at async /Users/olaf/Repositories/sample/node_modules/.pnpm/nx@20.0.11_@swc-node+register@1.10.9_@swc+core@1.7.26_@swc+helpers@0.5.11__@swc+types@0.1.12__vmmr2l4ddwix6t4zkeyglqchre/node_modules/nx/src/project-graph/plugins/utils.js:10:27
+          at async Promise.all (index 0)
+[NX Daemon Server] - 2024-11-13T22:34:20.066Z - Done responding to the client null
+[NX Daemon Server] - 2024-11-13T22:34:20.066Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 561. Response time: 0.
+[NX Daemon Server] - 2024-11-13T22:34:20.066Z - Time taken for 'total execution time for createProjectGraph()' 2.0578340000000708ms
+[NX Daemon Server] - 2024-11-13T22:34:20.067Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-13T22:34:47.587Z - [WATCHER]: 7 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-11-13T22:34:47.587Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-13T22:34:47.689Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-13T22:34:47.689Z - [REQUEST]: libs/rspack-config/src/parts/initial-spinner.html,libs/rspack-config/src/index.mjs,libs/rspack-config/src/appConfig.mjs,libs/rspack-config/src/parts/rules.mjs,libs/rspack-config/src/baseConfig.mjs,libs/rspack-config/src/parts/plugins.mjs,libs/rspack-config/src/helpers/constants.mjs
+[NX Daemon Server] - 2024-11-13T22:34:47.690Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-13T22:34:47.692Z - Time taken for 'hash changed files from watcher' 0.5382080000017595ms
+[NX Daemon Server] - 2024-11-13T22:34:47.693Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-13T22:34:47.693Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-13T22:34:47.693Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-13T22:34:47.695Z - Time taken for 'build-project-configs' 4.557041999996727ms
+[NX Daemon Server] - 2024-11-13T22:34:47.696Z - Time taken for '@nx/rspack/plugin:createDependencies' 0.6854999999995925ms
+[NX Daemon Server] - 2024-11-13T22:34:47.696Z - Time taken for 'total execution time for createProjectGraph()' 1.2728340000030585ms
+[NX Daemon Server] - 2024-11-13T22:34:50.225Z - [WATCHER]: 2 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-11-13T22:34:50.225Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-13T22:34:50.288Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-13T22:34:50.289Z - [WATCHER]: 2 file(s) created or restored, 7 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-11-13T22:34:50.328Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-13T22:34:50.328Z - [REQUEST]: libs/rspack-config/package.json,libs/rspack-config/project.json,libs/rspack-config/src/parts/initial-spinner.html,libs/rspack-config/src/index.mjs,libs/rspack-config/src/parts/plugins.mjs,libs/rspack-config/src/helpers/constants.mjs,libs/rspack-config/src/baseConfig.mjs,libs/rspack-config/src/parts/rules.mjs,libs/rspack-config/src/appConfig.mjs
+[NX Daemon Server] - 2024-11-13T22:34:50.328Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-13T22:34:50.332Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-13T22:34:50.332Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-13T22:34:50.332Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-13T22:34:50.332Z - Time taken for 'hash changed files from watcher' 0.346916999998939ms
+[NX Daemon Server] - 2024-11-13T22:34:50.334Z - Time taken for 'build-project-configs' 4.096499999999651ms
+[NX Daemon Server] - 2024-11-13T22:34:50.334Z - Time taken for '@nx/rspack/plugin:createDependencies' 0.2913330000010319ms
+[NX Daemon Server] - 2024-11-13T22:34:50.335Z - Time taken for 'total execution time for createProjectGraph()' 0.9414580000011483ms
+[NX Daemon Server] - 2024-11-13T22:35:20.313Z - [WATCHER]: libs/rspack-config/project.json was deleted
+[NX Daemon Server] - 2024-11-13T22:35:20.313Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-13T22:35:20.453Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-13T22:35:20.458Z - [WATCHER]: 0 file(s) created or restored, 0 file(s) modified, 8 file(s) deleted
+[NX Daemon Server] - 2024-11-13T22:35:20.515Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-13T22:35:20.517Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-13T22:35:20.517Z - [REQUEST]: libs/rspack-config/project.json,libs/rspack-config/src/parts/rules.mjs,libs/rspack-config/src/parts/initial-spinner.html,libs/rspack-config/src/index.mjs,libs/rspack-config/src/appConfig.mjs,libs/rspack-config/src/baseConfig.mjs,libs/rspack-config/src/helpers/constants.mjs,libs/rspack-config/src/parts/plugins.mjs,libs/rspack-config/package.json
+[NX Daemon Server] - 2024-11-13T22:35:20.521Z - Time taken for 'hash changed files from watcher' 0.04329199999483535ms
+[NX Daemon Server] - 2024-11-13T22:35:20.527Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-13T22:35:20.527Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-13T22:35:20.527Z - Handled HASH_GLOB. Handling time: 4. Response time: 0.
+[NX Daemon Server] - 2024-11-13T22:35:20.530Z - Time taken for 'build-project-configs' 10.802958000000217ms
+[NX Daemon Server] - 2024-11-13T22:35:20.531Z - Time taken for '@nx/rspack/plugin:createDependencies' 1.2503750000032596ms
+[NX Daemon Server] - 2024-11-13T22:35:20.531Z - Time taken for 'total execution time for createProjectGraph()' 1.6518750000032014ms
+[NX Daemon Server] - 2024-11-13T22:36:06.551Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-13T22:36:06.553Z - [WATCHER]: .gitignore was modified
+[NX Daemon Server] - 2024-11-13T22:36:06.554Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-11-13T22:36:06.554Z - [WATCHER]: Stopping the watcher for /Users/olaf/Repositories/sample (sources)
+[NX Daemon Server] - 2024-11-13T22:36:06.554Z - [WATCHER]: Stopping the watcher for /Users/olaf/Repositories/sample (outputs)
+[NX Daemon Server] - 2024-11-13T22:36:06.555Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
+[NX Daemon Server] - 2024-11-13T22:38:09.182Z - Started listening on: /var/folders/px/yt_n4xbs4hd30zbdf5xh7xw00000gn/T/36f89bc5644b99e8c572/d.sock
+[NX Daemon Server] - 2024-11-13T22:38:09.184Z - [WATCHER]: Subscribed to changes within: /Users/olaf/Repositories/sample (native)
+[NX Daemon Server] - 2024-11-13T22:38:09.188Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-13T22:38:09.188Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-13T22:38:09.189Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-13T22:38:09.190Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2024-11-13T22:38:09.190Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2024-11-13T22:38:09.190Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-13T22:38:09.192Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-11-13T22:38:09.192Z - [WATCHER]: Stopping the watcher for /Users/olaf/Repositories/sample (sources)
+[NX Daemon Server] - 2024-11-13T22:38:09.192Z - [WATCHER]: Stopping the watcher for /Users/olaf/Repositories/sample (outputs)
+[NX Daemon Server] - 2024-11-13T22:38:11.192Z - Started listening on: /var/folders/px/yt_n4xbs4hd30zbdf5xh7xw00000gn/T/36f89bc5644b99e8c572/d.sock
+[NX Daemon Server] - 2024-11-13T22:38:11.193Z - [WATCHER]: Subscribed to changes within: /Users/olaf/Repositories/sample (native)
+[NX Daemon Server] - 2024-11-13T22:38:11.202Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-13T22:38:11.203Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-13T22:38:11.203Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-13T22:38:11.204Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-11-13T22:38:11.254Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-13T22:38:11.629Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-13T22:38:11.629Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-13T22:38:11.629Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-13T22:38:11.633Z - Time taken for 'loadNxPlugins' 423.10783399999997ms
+[NX Daemon Server] - 2024-11-13T22:38:11.634Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-13T22:38:11.634Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-11-13T22:38:11.635Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-13T22:38:11.636Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-13T22:38:11.636Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-13T22:38:11.636Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-13T22:38:11.927Z - Time taken for 'build-project-configs' 286.5201659999999ms
+[NX Daemon Server] - 2024-11-13T22:38:11.929Z - Time taken for '@nx/rspack/plugin:createDependencies' 3.521417000000042ms
+[NX Daemon Server] - 2024-11-13T22:38:11.943Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+      An error occurred while processing files for the @nx/rspack/plugin plugin.
+    - apps/appA/rspack.config.mjs: require() of ES Module /Users/olaf/Repositories/sample/apps/appA/rspack.config.mjs not supported.
+  Instead change the require of /Users/olaf/Repositories/sample/apps/appA/rspack.config.mjs to a dynamic import() which is available in all CommonJS modules.
+      Error [ERR_REQUIRE_ESM]: require() of ES Module /Users/olaf/Repositories/sample/apps/appA/rspack.config.mjs not supported.
+      Instead change the require of /Users/olaf/Repositories/sample/apps/appA/rspack.config.mjs to a dynamic import() which is available in all CommonJS modules.
+          at resolveUserDefinedRspackConfig (/Users/olaf/Repositories/sample/node_modules/.pnpm/@nx+rspack@20.0.11_@babel+traverse@7.25.9_@module-federation+enhanced@0.6.16_react-dom@18.3.1_iamysananwjiob5kndcp53ql6q/node_modules/@nx/rspack/src/utils/resolve-user-defined-rspack-config.js:19:16)
+          at createRspackTargets (/Users/olaf/Repositories/sample/node_modules/.pnpm/@nx+rspack@20.0.11_@babel+traverse@7.25.9_@module-federation+enhanced@0.6.16_react-dom@18.3.1_iamysananwjiob5kndcp53ql6q/node_modules/@nx/rspack/src/plugins/plugin.js:65:98)
+          at createNodesInternal (/Users/olaf/Repositories/sample/node_modules/.pnpm/@nx+rspack@20.0.11_@babel+traverse@7.25.9_@module-federation+enhanced@0.6.16_react-dom@18.3.1_iamysananwjiob5kndcp53ql6q/node_modules/@nx/rspack/src/plugins/plugin.js:51:34)
+          at async /Users/olaf/Repositories/sample/node_modules/.pnpm/nx@20.0.11/node_modules/nx/src/project-graph/plugins/utils.js:10:27
+          at async Promise.all (index 0)
+[NX Daemon Server] - 2024-11-13T22:38:11.944Z - Time taken for 'total execution time for createProjectGraph()' 18.125666000000024ms
+[NX Daemon Server] - 2024-11-13T22:38:11.951Z - Done responding to the client null
+[NX Daemon Server] - 2024-11-13T22:38:11.951Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 739. Response time: 8.
+[NX Daemon Server] - 2024-11-13T22:38:11.953Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-13T22:38:16.887Z - [WATCHER]: package.json was modified
+[NX Daemon Server] - 2024-11-13T22:38:16.888Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-13T22:38:16.989Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-13T22:38:16.989Z - [REQUEST]: package.json
+[NX Daemon Server] - 2024-11-13T22:38:16.989Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-13T22:38:16.992Z - Time taken for 'hash changed files from watcher' 0.12287500000002183ms
+[NX Daemon Server] - 2024-11-13T22:38:16.994Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-13T22:38:16.994Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-13T22:38:16.994Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-13T22:38:16.998Z - Time taken for 'build-project-configs' 6.747208999999202ms
+[NX Daemon Server] - 2024-11-13T22:38:17.001Z - Time taken for '@nx/rspack/plugin:createDependencies' 3.779583000000457ms
+[NX Daemon Server] - 2024-11-13T22:38:17.009Z - Time taken for 'total execution time for createProjectGraph()' 10.540250000000015ms
+[NX Daemon Server] - 2024-11-13T22:38:25.795Z - [WATCHER]: package.json was modified
+[NX Daemon Server] - 2024-11-13T22:38:25.796Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-13T22:38:25.997Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-13T22:38:25.997Z - [REQUEST]: package.json
+[NX Daemon Server] - 2024-11-13T22:38:25.997Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-13T22:38:26.001Z - Time taken for 'hash changed files from watcher' 0.12291600000025937ms
+[NX Daemon Server] - 2024-11-13T22:38:26.002Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-13T22:38:26.002Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-13T22:38:26.002Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-13T22:38:26.007Z - Time taken for 'build-project-configs' 7.083833000000595ms
+[NX Daemon Server] - 2024-11-13T22:38:26.010Z - Time taken for '@nx/rspack/plugin:createDependencies' 3.709333000000697ms
+[NX Daemon Server] - 2024-11-13T22:38:26.020Z - Time taken for 'total execution time for createProjectGraph()' 13.131708000000799ms
+[NX Daemon Server] - 2024-11-13T22:38:26.999Z - [WATCHER]: _tmp_57260_59ecf405dbd8a0af4d9187face0e2ca1 was deleted
+[NX Daemon Server] - 2024-11-13T22:38:26.999Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-13T22:38:27.401Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-13T22:38:27.401Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-13T22:38:27.401Z - [REQUEST]: _tmp_57260_59ecf405dbd8a0af4d9187face0e2ca1
+[NX Daemon Server] - 2024-11-13T22:38:27.409Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-13T22:38:27.409Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-13T22:38:27.409Z - Handled HASH_GLOB. Handling time: 4. Response time: 0.
+[NX Daemon Server] - 2024-11-13T22:38:27.410Z - Time taken for 'hash changed files from watcher' 0.05104099999880418ms
+[NX Daemon Server] - 2024-11-13T22:38:27.422Z - Time taken for 'build-project-configs' 17.0926670000008ms
+[NX Daemon Server] - 2024-11-13T22:38:27.426Z - Time taken for '@nx/rspack/plugin:createDependencies' 6.035125000000335ms
+[NX Daemon Server] - 2024-11-13T22:38:27.433Z - Time taken for 'total execution time for createProjectGraph()' 12.374792000000525ms
+[NX Daemon Server] - 2024-11-13T22:38:30.715Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-13T22:38:30.715Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-11-13T22:38:30.716Z - [WATCHER]: Stopping the watcher for /Users/olaf/Repositories/sample (sources)
+[NX Daemon Server] - 2024-11-13T22:38:30.717Z - [WATCHER]: Stopping the watcher for /Users/olaf/Repositories/sample (outputs)
+[NX Daemon Server] - 2024-11-13T22:38:30.718Z - Server stopped because: "LOCK_FILES_CHANGED"
+[NX Daemon Server] - 2024-11-13T22:38:31.436Z - Started listening on: /var/folders/px/yt_n4xbs4hd30zbdf5xh7xw00000gn/T/36f89bc5644b99e8c572/d.sock
+[NX Daemon Server] - 2024-11-13T22:38:31.438Z - [WATCHER]: Subscribed to changes within: /Users/olaf/Repositories/sample (native)
+[NX Daemon Server] - 2024-11-13T22:38:31.440Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-13T22:38:31.441Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-13T22:38:31.442Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-13T22:38:31.443Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-11-13T22:38:31.623Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-13T22:38:31.993Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-13T22:38:31.993Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-13T22:38:31.993Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-13T22:38:32.002Z - Time taken for 'loadNxPlugins' 548.790667ms
+[NX Daemon Server] - 2024-11-13T22:38:32.004Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-13T22:38:32.004Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-13T22:38:32.004Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-13T22:38:32.006Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-13T22:38:32.006Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-13T22:38:32.006Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-13T22:38:32.329Z - Time taken for 'build-project-configs' 321.55575ms
+[NX Daemon Server] - 2024-11-13T22:38:32.333Z - Time taken for '@nx/rspack/plugin:createDependencies' 4.838500000000067ms
+[NX Daemon Server] - 2024-11-13T22:38:32.351Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+      An error occurred while processing files for the @nx/rspack/plugin plugin.
+    - apps/appA/rspack.config.mjs: require() of ES Module /Users/olaf/Repositories/sample/apps/appA/rspack.config.mjs not supported.
+  Instead change the require of /Users/olaf/Repositories/sample/apps/appA/rspack.config.mjs to a dynamic import() which is available in all CommonJS modules.
+      Error [ERR_REQUIRE_ESM]: require() of ES Module /Users/olaf/Repositories/sample/apps/appA/rspack.config.mjs not supported.
+      Instead change the require of /Users/olaf/Repositories/sample/apps/appA/rspack.config.mjs to a dynamic import() which is available in all CommonJS modules.
+          at resolveUserDefinedRspackConfig (/Users/olaf/Repositories/sample/node_modules/.pnpm/@nx+rspack@20.0.11_@babel+traverse@7.25.9_@module-federation+enhanced@0.6.16_react-dom@18.3.1_iamysananwjiob5kndcp53ql6q/node_modules/@nx/rspack/src/utils/resolve-user-defined-rspack-config.js:19:16)
+          at createRspackTargets (/Users/olaf/Repositories/sample/node_modules/.pnpm/@nx+rspack@20.0.11_@babel+traverse@7.25.9_@module-federation+enhanced@0.6.16_react-dom@18.3.1_iamysananwjiob5kndcp53ql6q/node_modules/@nx/rspack/src/plugins/plugin.js:65:98)
+          at createNodesInternal (/Users/olaf/Repositories/sample/node_modules/.pnpm/@nx+rspack@20.0.11_@babel+traverse@7.25.9_@module-federation+enhanced@0.6.16_react-dom@18.3.1_iamysananwjiob5kndcp53ql6q/node_modules/@nx/rspack/src/plugins/plugin.js:51:34)
+          at async /Users/olaf/Repositories/sample/node_modules/.pnpm/nx@20.0.11/node_modules/nx/src/project-graph/plugins/utils.js:10:27
+          at async Promise.all (index 0)
+[NX Daemon Server] - 2024-11-13T22:38:32.352Z - Time taken for 'total execution time for createProjectGraph()' 22.900916999999936ms
+[NX Daemon Server] - 2024-11-13T22:38:32.360Z - Done responding to the client null
+[NX Daemon Server] - 2024-11-13T22:38:32.360Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 908. Response time: 9.
+[NX Daemon Server] - 2024-11-13T22:38:32.362Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-13T22:38:45.120Z - [WATCHER]: apps/appA/project.json was modified
+[NX Daemon Server] - 2024-11-13T22:38:45.120Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-13T22:38:45.222Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-13T22:38:45.223Z - [REQUEST]: apps/appA/project.json
+[NX Daemon Server] - 2024-11-13T22:38:45.223Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-13T22:38:45.226Z - Time taken for 'hash changed files from watcher' 0.20454199999949196ms
+[NX Daemon Server] - 2024-11-13T22:38:45.227Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-13T22:38:45.227Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-13T22:38:45.227Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-13T22:38:45.234Z - Time taken for 'build-project-configs' 7.80225000000064ms
+[NX Daemon Server] - 2024-11-13T22:38:45.237Z - Time taken for '@nx/rspack/plugin:createDependencies' 3.7003750000003492ms
+[NX Daemon Server] - 2024-11-13T22:38:45.243Z - Time taken for 'total execution time for createProjectGraph()' 10.234166000000187ms
+[NX Daemon Server] - 2024-11-13T22:38:46.543Z - [WATCHER]: _tmp_57314_17d06898ec29030dd050aba6cef33e70 was deleted
+[NX Daemon Server] - 2024-11-13T22:38:46.543Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-13T22:38:46.745Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-13T22:38:46.745Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-13T22:38:46.745Z - [REQUEST]: _tmp_57314_17d06898ec29030dd050aba6cef33e70
+[NX Daemon Server] - 2024-11-13T22:38:46.748Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-13T22:38:46.748Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-13T22:38:46.748Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-13T22:38:46.748Z - Time taken for 'hash changed files from watcher' 0.03724999999940337ms
+[NX Daemon Server] - 2024-11-13T22:38:46.754Z - Time taken for 'build-project-configs' 5.91070800000125ms
+[NX Daemon Server] - 2024-11-13T22:38:46.757Z - Time taken for '@nx/rspack/plugin:createDependencies' 5.298917000000074ms
+[NX Daemon Server] - 2024-11-13T22:38:46.763Z - Time taken for 'total execution time for createProjectGraph()' 10.55316700000003ms
+[NX Daemon Server] - 2024-11-13T22:38:47.248Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-13T22:38:47.248Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-13T22:38:47.248Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-13T22:38:47.249Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-11-13T22:38:47.250Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-13T22:38:47.250Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-13T22:38:47.250Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-13T22:38:47.255Z - Time taken for 'hash changed files from watcher' 0.1617499999993015ms
+[NX Daemon Server] - 2024-11-13T22:38:47.255Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-13T22:38:47.255Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-13T22:38:47.255Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-13T22:38:47.260Z - Time taken for 'build-project-configs' 4.55066700000134ms
+[NX Daemon Server] - 2024-11-13T22:38:47.261Z - Time taken for '@nx/rspack/plugin:createDependencies' 2.782042000000729ms
+[NX Daemon Server] - 2024-11-13T22:38:47.267Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+      An error occurred while processing files for the @nx/rspack/plugin plugin.
+    - apps/appA/rspack.config.mjs: require() of ES Module /Users/olaf/Repositories/sample/apps/appA/rspack.config.mjs not supported.
+  Instead change the require of /Users/olaf/Repositories/sample/apps/appA/rspack.config.mjs to a dynamic import() which is available in all CommonJS modules.
+      Error [ERR_REQUIRE_ESM]: require() of ES Module /Users/olaf/Repositories/sample/apps/appA/rspack.config.mjs not supported.
+      Instead change the require of /Users/olaf/Repositories/sample/apps/appA/rspack.config.mjs to a dynamic import() which is available in all CommonJS modules.
+          at resolveUserDefinedRspackConfig (/Users/olaf/Repositories/sample/node_modules/.pnpm/@nx+rspack@20.0.11_@babel+traverse@7.25.9_@module-federation+enhanced@0.6.16_react-dom@18.3.1_iamysananwjiob5kndcp53ql6q/node_modules/@nx/rspack/src/utils/resolve-user-defined-rspack-config.js:19:16)
+          at createRspackTargets (/Users/olaf/Repositories/sample/node_modules/.pnpm/@nx+rspack@20.0.11_@babel+traverse@7.25.9_@module-federation+enhanced@0.6.16_react-dom@18.3.1_iamysananwjiob5kndcp53ql6q/node_modules/@nx/rspack/src/plugins/plugin.js:65:98)
+          at createNodesInternal (/Users/olaf/Repositories/sample/node_modules/.pnpm/@nx+rspack@20.0.11_@babel+traverse@7.25.9_@module-federation+enhanced@0.6.16_react-dom@18.3.1_iamysananwjiob5kndcp53ql6q/node_modules/@nx/rspack/src/plugins/plugin.js:51:34)
+          at async /Users/olaf/Repositories/sample/node_modules/.pnpm/nx@20.0.11/node_modules/nx/src/project-graph/plugins/utils.js:10:27
+          at async Promise.all (index 0)
+[NX Daemon Server] - 2024-11-13T22:38:47.268Z - Time taken for 'total execution time for createProjectGraph()' 8.134792000000743ms
+[NX Daemon Server] - 2024-11-13T22:38:47.270Z - Done responding to the client null
+[NX Daemon Server] - 2024-11-13T22:38:47.270Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 18. Response time: 3.
+[NX Daemon Server] - 2024-11-13T22:38:47.272Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-13T22:39:00.823Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-13T22:39:04.317Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-13T22:39:04.317Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-13T22:39:04.317Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-13T22:39:04.319Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-11-13T22:39:04.321Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-13T22:39:04.321Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-13T22:39:04.321Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-13T22:39:04.322Z - Time taken for 'hash changed files from watcher' 2.1550830000051064ms
+[NX Daemon Server] - 2024-11-13T22:39:04.323Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-13T22:39:04.324Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-13T22:39:04.324Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-11-13T22:39:04.329Z - Time taken for 'build-project-configs' 6.3229580000042915ms
+[NX Daemon Server] - 2024-11-13T22:39:04.331Z - Time taken for '@nx/rspack/plugin:createDependencies' 2.3291250000038417ms
+[NX Daemon Server] - 2024-11-13T22:39:04.336Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+      An error occurred while processing files for the @nx/rspack/plugin plugin.
+    - apps/appA/rspack.config.mjs: require() of ES Module /Users/olaf/Repositories/sample/apps/appA/rspack.config.mjs not supported.
+  Instead change the require of /Users/olaf/Repositories/sample/apps/appA/rspack.config.mjs to a dynamic import() which is available in all CommonJS modules.
+      Error [ERR_REQUIRE_ESM]: require() of ES Module /Users/olaf/Repositories/sample/apps/appA/rspack.config.mjs not supported.
+      Instead change the require of /Users/olaf/Repositories/sample/apps/appA/rspack.config.mjs to a dynamic import() which is available in all CommonJS modules.
+          at resolveUserDefinedRspackConfig (/Users/olaf/Repositories/sample/node_modules/.pnpm/@nx+rspack@20.0.11_@babel+traverse@7.25.9_@module-federation+enhanced@0.6.16_react-dom@18.3.1_iamysananwjiob5kndcp53ql6q/node_modules/@nx/rspack/src/utils/resolve-user-defined-rspack-config.js:19:16)
+          at createRspackTargets (/Users/olaf/Repositories/sample/node_modules/.pnpm/@nx+rspack@20.0.11_@babel+traverse@7.25.9_@module-federation+enhanced@0.6.16_react-dom@18.3.1_iamysananwjiob5kndcp53ql6q/node_modules/@nx/rspack/src/plugins/plugin.js:65:98)
+          at createNodesInternal (/Users/olaf/Repositories/sample/node_modules/.pnpm/@nx+rspack@20.0.11_@babel+traverse@7.25.9_@module-federation+enhanced@0.6.16_react-dom@18.3.1_iamysananwjiob5kndcp53ql6q/node_modules/@nx/rspack/src/plugins/plugin.js:51:34)
+          at async /Users/olaf/Repositories/sample/node_modules/.pnpm/nx@20.0.11/node_modules/nx/src/project-graph/plugins/utils.js:10:27
+          at async Promise.all (index 0)
+[NX Daemon Server] - 2024-11-13T22:39:04.338Z - Time taken for 'total execution time for createProjectGraph()' 7.667250000005879ms
+[NX Daemon Server] - 2024-11-13T22:39:04.339Z - Done responding to the client null
+[NX Daemon Server] - 2024-11-13T22:39:04.339Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 17. Response time: 3.
+[NX Daemon Server] - 2024-11-13T22:39:04.341Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-13T22:39:43.600Z - [WATCHER]: package.json was modified
+[NX Daemon Server] - 2024-11-13T22:39:43.600Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-13T22:39:43.702Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-13T22:39:43.702Z - [REQUEST]: package.json
+[NX Daemon Server] - 2024-11-13T22:39:43.702Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-13T22:39:43.704Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-13T22:39:43.705Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-13T22:39:43.705Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-11-13T22:39:43.705Z - Time taken for 'hash changed files from watcher' 0.07083300000522286ms
+[NX Daemon Server] - 2024-11-13T22:39:43.710Z - Time taken for 'build-project-configs' 5.580333000005339ms
+[NX Daemon Server] - 2024-11-13T22:39:43.712Z - Time taken for '@nx/rspack/plugin:createDependencies' 2.980999999999767ms
+[NX Daemon Server] - 2024-11-13T22:39:43.721Z - Time taken for 'total execution time for createProjectGraph()' 12.038083999999799ms
+[NX Daemon Server] - 2024-11-13T22:39:46.142Z - [WATCHER]: _tmp_57565_57402869c316a2e16b0584f3d1d0d10e was deleted
+[NX Daemon Server] - 2024-11-13T22:39:46.142Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-13T22:39:46.343Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-13T22:39:46.343Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-13T22:39:46.343Z - [REQUEST]: _tmp_57565_57402869c316a2e16b0584f3d1d0d10e
+[NX Daemon Server] - 2024-11-13T22:39:46.348Z - Time taken for 'hash changed files from watcher' 0.03491600000415929ms
+[NX Daemon Server] - 2024-11-13T22:39:46.350Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-13T22:39:46.350Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-13T22:39:46.350Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-13T22:39:46.356Z - Time taken for 'build-project-configs' 9.263832999989972ms
+[NX Daemon Server] - 2024-11-13T22:39:46.359Z - Time taken for '@nx/rspack/plugin:createDependencies' 3.82462499999383ms
+[NX Daemon Server] - 2024-11-13T22:39:46.367Z - Time taken for 'total execution time for createProjectGraph()' 11.502416999996058ms
+[NX Daemon Server] - 2024-11-13T22:39:49.512Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-13T22:39:49.513Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-11-13T22:39:49.513Z - [WATCHER]: Stopping the watcher for /Users/olaf/Repositories/sample (sources)
+[NX Daemon Server] - 2024-11-13T22:39:49.513Z - [WATCHER]: Stopping the watcher for /Users/olaf/Repositories/sample (outputs)
+[NX Daemon Server] - 2024-11-13T22:39:49.513Z - Server stopped because: "LOCK_FILES_CHANGED"
+[NX Daemon Server] - 2024-11-13T22:39:50.016Z - Started listening on: /var/folders/px/yt_n4xbs4hd30zbdf5xh7xw00000gn/T/36f89bc5644b99e8c572/d.sock
+[NX Daemon Server] - 2024-11-13T22:39:50.018Z - [WATCHER]: Subscribed to changes within: /Users/olaf/Repositories/sample (native)
+[NX Daemon Server] - 2024-11-13T22:39:50.025Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-13T22:39:50.026Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-13T22:39:50.027Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-13T22:39:50.027Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-11-13T22:39:50.088Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-13T22:39:50.537Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-13T22:39:50.537Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-13T22:39:50.537Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-13T22:39:50.542Z - Time taken for 'loadNxPlugins' 508.791ms
+[NX Daemon Server] - 2024-11-13T22:39:50.542Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-13T22:39:50.542Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-11-13T22:39:50.543Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-13T22:39:50.543Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-13T22:39:50.543Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-13T22:39:50.543Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-13T22:39:50.825Z - Time taken for 'build-project-configs' 277.46925ms
+[NX Daemon Server] - 2024-11-13T22:39:50.827Z - Time taken for '@nx/rspack/plugin:createDependencies' 2.964375000000018ms
+[NX Daemon Server] - 2024-11-13T22:39:50.838Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+      An error occurred while processing files for the @nx/rspack/plugin plugin.
+    - apps/appA/rspack.config.mjs: require() of ES Module /Users/olaf/Repositories/sample/apps/appA/rspack.config.mjs not supported.
+  Instead change the require of /Users/olaf/Repositories/sample/apps/appA/rspack.config.mjs to a dynamic import() which is available in all CommonJS modules.
+      Error [ERR_REQUIRE_ESM]: require() of ES Module /Users/olaf/Repositories/sample/apps/appA/rspack.config.mjs not supported.
+      Instead change the require of /Users/olaf/Repositories/sample/apps/appA/rspack.config.mjs to a dynamic import() which is available in all CommonJS modules.
+          at resolveUserDefinedRspackConfig (/Users/olaf/Repositories/sample/node_modules/.pnpm/@nx+rspack@20.0.11_@babel+traverse@7.25.9_@module-federation+enhanced@0.6.16_react-dom@18.3.1_iamysananwjiob5kndcp53ql6q/node_modules/@nx/rspack/src/utils/resolve-user-defined-rspack-config.js:19:16)
+          at createRspackTargets (/Users/olaf/Repositories/sample/node_modules/.pnpm/@nx+rspack@20.0.11_@babel+traverse@7.25.9_@module-federation+enhanced@0.6.16_react-dom@18.3.1_iamysananwjiob5kndcp53ql6q/node_modules/@nx/rspack/src/plugins/plugin.js:65:98)
+          at createNodesInternal (/Users/olaf/Repositories/sample/node_modules/.pnpm/@nx+rspack@20.0.11_@babel+traverse@7.25.9_@module-federation+enhanced@0.6.16_react-dom@18.3.1_iamysananwjiob5kndcp53ql6q/node_modules/@nx/rspack/src/plugins/plugin.js:51:34)
+          at async /Users/olaf/Repositories/sample/node_modules/.pnpm/nx@20.0.11/node_modules/nx/src/project-graph/plugins/utils.js:10:27
+          at async Promise.all (index 0)
+[NX Daemon Server] - 2024-11-13T22:39:50.839Z - Time taken for 'total execution time for createProjectGraph()' 14.618165999999974ms
+[NX Daemon Server] - 2024-11-13T22:39:50.841Z - Done responding to the client null
+[NX Daemon Server] - 2024-11-13T22:39:50.841Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 811. Response time: 3.
+[NX Daemon Server] - 2024-11-13T22:39:50.843Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-13T22:40:00.350Z - [WATCHER]: package.json was modified
+[NX Daemon Server] - 2024-11-13T22:40:00.351Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-13T22:40:00.452Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-13T22:40:00.452Z - [REQUEST]: package.json
+[NX Daemon Server] - 2024-11-13T22:40:00.452Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-13T22:40:00.455Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-13T22:40:00.455Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-13T22:40:00.455Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-13T22:40:00.455Z - Time taken for 'hash changed files from watcher' 0.07612499999959255ms
+[NX Daemon Server] - 2024-11-13T22:40:00.462Z - Time taken for 'build-project-configs' 7.1215419999989535ms
+[NX Daemon Server] - 2024-11-13T22:40:00.464Z - Time taken for '@nx/rspack/plugin:createDependencies' 2.6075000000000728ms
+[NX Daemon Server] - 2024-11-13T22:40:00.471Z - Time taken for 'total execution time for createProjectGraph()' 9.974957999998878ms
+[NX Daemon Server] - 2024-11-13T22:40:01.269Z - [WATCHER]: _tmp_57615_b2fcb4c45a8ce206775e34d20aaafe44 was deleted
+[NX Daemon Server] - 2024-11-13T22:40:01.269Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-13T22:40:01.471Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-13T22:40:01.471Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-13T22:40:01.471Z - [REQUEST]: _tmp_57615_b2fcb4c45a8ce206775e34d20aaafe44
+[NX Daemon Server] - 2024-11-13T22:40:01.476Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-13T22:40:01.476Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-13T22:40:01.476Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-13T22:40:01.476Z - Time taken for 'hash changed files from watcher' 0.03266599999915343ms
+[NX Daemon Server] - 2024-11-13T22:40:01.479Z - Time taken for 'build-project-configs' 6.226875000000291ms
+[NX Daemon Server] - 2024-11-13T22:40:01.482Z - Time taken for '@nx/rspack/plugin:createDependencies' 4.0364580000004935ms
+[NX Daemon Server] - 2024-11-13T22:40:01.497Z - Time taken for 'total execution time for createProjectGraph()' 14.48308299999917ms
+[NX Daemon Server] - 2024-11-13T22:40:03.629Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-13T22:40:03.629Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-11-13T22:40:03.629Z - [WATCHER]: Stopping the watcher for /Users/olaf/Repositories/sample (sources)
+[NX Daemon Server] - 2024-11-13T22:40:03.629Z - [WATCHER]: Stopping the watcher for /Users/olaf/Repositories/sample (outputs)
+[NX Daemon Server] - 2024-11-13T22:40:03.630Z - Server stopped because: "LOCK_FILES_CHANGED"
+[NX Daemon Server] - 2024-11-13T22:40:04.077Z - Started listening on: /var/folders/px/yt_n4xbs4hd30zbdf5xh7xw00000gn/T/36f89bc5644b99e8c572/d.sock
+[NX Daemon Server] - 2024-11-13T22:40:04.078Z - [WATCHER]: Subscribed to changes within: /Users/olaf/Repositories/sample (native)
+[NX Daemon Server] - 2024-11-13T22:40:04.083Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-13T22:40:04.084Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-13T22:40:04.084Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-13T22:40:04.085Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-11-13T22:40:04.149Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-13T22:40:04.549Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-13T22:40:04.549Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-13T22:40:04.549Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-13T22:40:04.554Z - Time taken for 'loadNxPlugins' 463.749584ms
+[NX Daemon Server] - 2024-11-13T22:40:04.554Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-13T22:40:04.555Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-11-13T22:40:04.555Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-13T22:40:04.556Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-13T22:40:04.556Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-13T22:40:04.556Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-13T22:40:04.846Z - Time taken for 'build-project-configs' 286.16662500000007ms
+[NX Daemon Server] - 2024-11-13T22:40:04.848Z - Time taken for '@nx/rspack/plugin:createDependencies' 2.8127080000000433ms
+[NX Daemon Server] - 2024-11-13T22:40:04.858Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+      An error occurred while processing files for the @nx/rspack/plugin plugin.
+    - apps/appA/rspack.config.mjs: require() of ES Module /Users/olaf/Repositories/sample/apps/appA/rspack.config.mjs not supported.
+  Instead change the require of /Users/olaf/Repositories/sample/apps/appA/rspack.config.mjs to a dynamic import() which is available in all CommonJS modules.
+      Error [ERR_REQUIRE_ESM]: require() of ES Module /Users/olaf/Repositories/sample/apps/appA/rspack.config.mjs not supported.
+      Instead change the require of /Users/olaf/Repositories/sample/apps/appA/rspack.config.mjs to a dynamic import() which is available in all CommonJS modules.
+          at resolveUserDefinedRspackConfig (/Users/olaf/Repositories/sample/node_modules/.pnpm/@nx+rspack@20.0.11_@babel+traverse@7.25.9_@module-federation+enhanced@0.6.16_react-dom@18.3.1_iamysananwjiob5kndcp53ql6q/node_modules/@nx/rspack/src/utils/resolve-user-defined-rspack-config.js:19:16)
+          at createRspackTargets (/Users/olaf/Repositories/sample/node_modules/.pnpm/@nx+rspack@20.0.11_@babel+traverse@7.25.9_@module-federation+enhanced@0.6.16_react-dom@18.3.1_iamysananwjiob5kndcp53ql6q/node_modules/@nx/rspack/src/plugins/plugin.js:65:98)
+          at createNodesInternal (/Users/olaf/Repositories/sample/node_modules/.pnpm/@nx+rspack@20.0.11_@babel+traverse@7.25.9_@module-federation+enhanced@0.6.16_react-dom@18.3.1_iamysananwjiob5kndcp53ql6q/node_modules/@nx/rspack/src/plugins/plugin.js:51:34)
+          at async /Users/olaf/Repositories/sample/node_modules/.pnpm/nx@20.0.11/node_modules/nx/src/project-graph/plugins/utils.js:10:27
+          at async Promise.all (index 0)
+[NX Daemon Server] - 2024-11-13T22:40:04.859Z - Time taken for 'total execution time for createProjectGraph()' 13.539041999999995ms
+[NX Daemon Server] - 2024-11-13T22:40:04.861Z - Done responding to the client null
+[NX Daemon Server] - 2024-11-13T22:40:04.861Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 773. Response time: 3.
+[NX Daemon Server] - 2024-11-13T22:40:04.863Z - Closed a connection. Number of open connections: 1
